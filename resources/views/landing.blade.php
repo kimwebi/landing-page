@@ -51,9 +51,9 @@
                         <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar"
                             href="javascript:void(0)"></a>
                         <!-- sidebar-toggle-->
-                        <a class="logo-horizontal " href="index.html">
-                            <img src="../assets/images/brand/logo.png" class="header-brand-img desktop-logo" alt="logo">
-                            <img src="../assets/images/brand/logo-3.png" class="header-brand-img light-logo1"
+                        <a class="logo-horizontal " href="#">
+                            <img src="{{ asset('images/logo.png') }}" class="header-brand-img desktop-logo" alt="logo">
+                            <img src="{{ asset('images/logo-3.png') }}" class="header-brand-img light-logo1"
                                 alt="logo">
                         </a>
                         <!-- LOGO -->
@@ -91,9 +91,9 @@
                         <div class="container">
                             <div class="row">
                                 <div class="main-sidemenu navbar px-0">
-                                    <a class="navbar-brand ps-0 d-none d-lg-block" href="index.html">
-                                        <img alt="" class="logo-2" src="../assets/images/brand/logo-3.png">
-                                        <img src="../assets/images/brand/logo.png" class="logo-3" alt="logo">
+                                    <a class="navbar-brand ps-0 d-none d-lg-block" href="#">
+                                        <img alt="" class="logo-2" src="{{asset('images/logo-3.png')}}">
+                                        <img src="{{asset('images/logo-3.png')}}" class="logo-3" alt="logo">
                                     </a>
                                     <ul class="side-menu">
                                         <li class="slide">
@@ -164,7 +164,7 @@
                                 </a>
                             </div>
                             <div class="col-xl-6 col-lg-6 my-auto">
-                                <img src="../assets/images/landing/market4.png" alt="">
+                                <img src="{{ asset('images/landing/market4.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -636,8 +636,7 @@
                                                         <div class="row">
                                                             <div class="col-xl-6 col-lg-6 ps-0">
                                                                 <div class="text-center reveal revealleft mb-3">
-                                                                    <img src="../assets/images/landing/business-team-working-on-business-plan.png"
-                                                                        alt="" class="br-5">
+                                                                    <img src="{{ asset('images/landing/business-team-working-on-business-plan.png') }}"alt=" class="br-5">
                                                                 </div>
                                                             </div>
                                                             <div class="col-xl-6 col-lg-6 pe-0 my-auto">
@@ -1432,8 +1431,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 col-lg-6 reveal revealright">
-                                                    <img src="../assets/images/landing/frequently-asked-questions.png"
-                                                        alt="">
+                                                    <img src="{{ asset('images/landing/frequently-asked-questions.png') }}" alt="">
                                                 </div>
                                             </div>
                                         </section>
@@ -1786,7 +1784,7 @@
                                                         <div class="col-xl-9">
                                                             <div class="">
                                                                 <form class="form-horizontal reveal revealrotate m-t-20"
-                                                                    action="index.html">
+                                                                    action="#">
                                                                     <div class="form-group">
                                                                         <div class="col-xs-12">
                                                                             <input class="form-control" type="text"
@@ -1888,7 +1886,7 @@
                                     <div class="col-lg-2 col-sm-6 col-md-4 reveal revealleft">
                                         <h6>Pages</h6>
                                         <ul class="list-unstyled mb-5 mb-lg-0">
-                                            <li><a href="index.html">Dashboard</a></li>
+                                            <li><a href="#">Dashboard</a></li>
                                             <li><a href="alerts.html">Elements</a></li>
                                             <li><a href="form-elements.html">Forms</a></li>
                                             <li><a href="charts.html">Charts</a></li>
@@ -1909,9 +1907,9 @@
                                     </div>
                                     <div class="col-lg-4 col-sm-12 col-md-4 reveal revealleft">
                                         <div class="">
-                                            <a href="index.html"><img loading="lazy" alt="" class="logo-2 mb-3"
-                                                    src="../assets/images/brand/logo-3.png"></a>
-                                            <a href="index.html"><img src="../assets/images/brand/logo.png"
+                                            <a href="#"><img loading="lazy" alt="" class="logo-2 mb-3"
+                                                    src="{{asset('images/logo-3.png')}}"></a>
+                                            <a href="#"><img src="{{asset('images/logo.png')}}"
                                                     class="logo-3" alt="logo"></a>
                                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                                                 dolore eu fugiat nulla pariatur Excepteur sint occaecat.</p>
