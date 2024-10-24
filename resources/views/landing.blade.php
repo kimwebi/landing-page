@@ -14,6 +14,15 @@
 
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}" />
+    <!-- Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<!-- Feather Icons CSS -->
+<link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+
+
 
     <!-- TITLE -->
     <title>Sash – Bootstrap 5 Admin & Dashboard Template</title>
@@ -1926,13 +1935,13 @@
                                         </div>
                                         <div class="btn-list mt-6">
                                             <button type="button" class="btn btn-icon rounded-pill"><i
-                                                    class="fa fa-facebook"></i></button>
+                                                    class="fab fa-facebook"></i></button>
                                             <button type="button" class="btn btn-icon rounded-pill"><i
-                                                    class="fa fa-youtube"></i></button>
+                                                    class="fab fa-youtube"></i></button>
                                             <button type="button" class="btn btn-icon rounded-pill"><i
-                                                    class="fa fa-twitter"></i></button>
+                                                    class="fab fa-twitter"></i></button>
                                             <button type="button" class="btn btn-icon rounded-pill"><i
-                                                    class="fa fa-instagram"></i></button>
+                                                    class="fab fa-instagram"></i></button>
                                         </div>
                                         <hr>
                                     </div>
