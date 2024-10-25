@@ -16,10 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}" />
     <!-- Font Awesome CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-<!-- Feather Icons CSS -->
-<link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.css" rel="stylesheet">
 
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
 
 
@@ -29,6 +26,9 @@
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
+    
+    
+
 
     <!-- STYLE CSS -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
@@ -1462,8 +1462,8 @@
                                                     <div class="d-flex overflow-visible">
                                                         <a href="blog-details.html"
                                                             class="card-aside-column br-5 cover-image"
-                                                            data-bs-image-src="../assets/images/media/12.jpg"
-                                                            style="background: url(&quot;../assets/images/media/12.jpg&quot;) center center;"></a>
+                                                            data-bs-image-src="{{asset('images/media.12.png')}}"
+                                                            style="background: url(&quot;{{asset('images/media/12.png')}}&quot;) center center;"></a>
                                                         <div class="ps-3 flex-column">
                                                             <span
                                                                 class="badge bg-primary me-1 mb-1 mt-1">Business</span>
@@ -1483,8 +1483,8 @@
                                                     <div class="d-flex overflow-visible">
                                                         <a href="blog-details.html"
                                                             class="card-aside-column br-5 cover-image"
-                                                            data-bs-image-src="../assets/images/media/22.jpg"
-                                                            style="background: url(&quot;../assets/images/media/22.jpg&quot;) center center;"></a>
+                                                            data-bs-image-src="{{asset('images/media/22.png')}}"
+                                                            style="background: url(&quot;{{asset('images/media/22.png')}}&quot;) center center;"></a>
                                                         <div class="ps-3 flex-column">
                                                             <span
                                                                 class="badge bg-danger me-1 mb-1 mt-1">Lifestyle</span>
@@ -1505,8 +1505,8 @@
                                                     <div class="d-flex overflow-visible">
                                                         <a href="blog-details.html"
                                                             class="card-aside-column br-5 cover-image"
-                                                            data-bs-image-src="../assets/images/media/about.jpg"
-                                                            style="background: url(&quot;../assets/images/media/about.jpg&quot;) center center;"></a>
+                                                            data-bs-image-src="{{asset('images/media/about.png')}}"
+                                                            style="background: url(&quot;{{asset('images/media/aout.png')}}&quot;) center center;"></a>
                                                         <div class="ps-3 flex-column">
                                                             <span
                                                                 class="badge bg-secondary me-1 mb-1 mt-1">Travel</span>
@@ -1527,8 +1527,8 @@
                                                     <div class="d-flex overflow-visible">
                                                         <a href="blog-details.html"
                                                             class="card-aside-column br-5 cover-image"
-                                                            data-bs-image-src="../assets/images/media/25.jpg"
-                                                            style="background: url(&quot;../assets/images/media/25.jpg&quot;) center center;"></a>
+                                                            data-bs-image-src="{{asset('images/media/25.png')}}"
+                                                            style="background: url(&quot{{asset('images/media/25.png')}}&quot;) center center;"></a>
                                                         <div class="ps-3 flex-column">
                                                             <span class="badge bg-success me-1 mb-1 mt-1">Meeting</span>
                                                             <h3><a href="blog-details.html">Voluptatem quia
