@@ -14739,6 +14739,8 @@ a.icon:hover {
     width: 40px;
 }
 
+
+
 .material-switch>label::after {
     background: white;
     border-radius: 16px;
@@ -55505,6 +55507,7 @@ div.dtr-modal div.dtr-modal-content {
     position: relative;
     padding: 1em;
 }
+
 
 div.dtr-modal div.dtr-modal-close {
     position: absolute;
