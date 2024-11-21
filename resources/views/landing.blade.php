@@ -26,8 +26,8 @@
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
-    
-    
+
+
 
 
     <!-- STYLE CSS -->
@@ -188,7 +188,7 @@
                     <div class="main-container">
                         <div class="">
 
-                            <!-- ROW-1 OPEN -->
+                            <!-- ROW-1 OPEN
                             <div class="section pb-0">
                                 <div class="container">
                                     <div class="row">
@@ -282,7 +282,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- ROW-1 CLOSED -->
+                            ROW-1 CLOSED -->
 
                             <!-- ROW-2 OPEN -->
                             <div class="sptb section bg-white" id="Features">
@@ -754,7 +754,7 @@
                             </div>
                             <!-- ROW-4 CLOSED -->
 
-                            <!-- ROW-5 OPEN -->
+                            <!-- ROW-5 OPEN
                             <div class="section">
                                 <div class="container">
                                     <div class="row">
@@ -979,7 +979,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- ROW-5 CLOSED -->
+                            ROW-5 CLOSED -->
 
                             <!-- ROW-6 OPEN -->
                             <div class="bg-landing section bg-image-style">
@@ -1298,7 +1298,7 @@
                             </div>
                             <!-- ROW-6 CLOSED -->
 
-                            <!-- ROW-7 OPEN -->
+                            <!-- ROW-7 OPEN
                             <div class="section" id="Faqs">
                                 <div class="container">
                                     <div class="row">
@@ -1447,7 +1447,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- ROW-7 CLOSED -->
+                            ROW-7 CLOSED -->
 
                             <!-- ROW-8 OPEN -->
                             <div class="section bg-landing" id="Blog">
@@ -1553,7 +1553,7 @@
                             </div>
                             <!-- ROW-8 CLOSED -->
 
-                            <!-- ROW-9 OPEN -->
+                            <!-- ROW-9 OPEN
                             <div class="testimonial-owl-landing section pb-0" id="Clients">
                                 <div class="container">
                                     <div class="row">
@@ -1691,7 +1691,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- ROW-9 CLOSED -->
+                            ROW-9 CLOSED -->
 
                             <!-- ROW-10 OPEN -->
                             <div class="bg-image-landing section pb-0" id="Contact">
@@ -1882,6 +1882,7 @@
                             <div class="top-footer">
                                 <div class="row">
                                     <div class="col-lg-4 col-sm-12 col-md-12 reveal revealleft">
+                                        <!--About section
                                         <h6>About</h6>
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                                             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
@@ -1933,8 +1934,10 @@
                                                 </div>
                                             </div>
                                         </div>
+-->
                                         <div class="btn-list mt-6">
-                                            <button type="button" class="btn btn-icon rounded-pill"><i
+                                           <!-- Social media links
+                                         <button type="button" class="btn btn-icon rounded-pill"><i
                                                     class="fab fa-facebook"></i></button>
                                             <button type="button" class="btn btn-icon rounded-pill"><i
                                                     class="fab fa-youtube"></i></button>
@@ -1942,6 +1945,7 @@
                                                     class="fab fa-twitter"></i></button>
                                             <button type="button" class="btn btn-icon rounded-pill"><i
                                                     class="fab fa-instagram"></i></button>
+-->
                                         </div>
                                         <hr>
                                     </div>
